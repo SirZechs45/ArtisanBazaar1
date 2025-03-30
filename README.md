@@ -65,6 +65,8 @@ psql -U craftuser -d craftdb -f migrations/0000_whole_rafael_vega.sql
 Once the database is set up and the migration has run successfully, you can start your project:
 
 ```bash
+npm i
+npm run build
 npm run dev
 ```
 
